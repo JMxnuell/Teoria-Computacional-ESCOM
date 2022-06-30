@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
-
+//Práctica 1 UNIVERSO
 void sigma_n(const int &n);
 
 int main() {
