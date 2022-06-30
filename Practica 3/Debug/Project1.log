@@ -1,0 +1,15 @@
+﻿Source.obj : error LNK2019: unresolved external symbol _SDL_CreateWindow referenced in function _main
+Source.obj : error LNK2019: unresolved external symbol _SDL_SetWindowMinimumSize referenced in function _main
+Source.obj : error LNK2019: unresolved external symbol _SDL_DestroyWindow referenced in function _main
+Source.obj : error LNK2019: unresolved external symbol _SDL_PollEvent referenced in function "void __cdecl handleEvents(void)" (?handleEvents@@YAXXZ)
+Source.obj : error LNK2019: unresolved external symbol _SDL_CreateRenderer referenced in function _main
+Source.obj : error LNK2019: unresolved external symbol _SDL_SetRenderDrawColor referenced in function "void __cdecl render(void)" (?render@@YAXXZ)
+Source.obj : error LNK2019: unresolved external symbol _SDL_SetRenderDrawBlendMode referenced in function _main
+Source.obj : error LNK2019: unresolved external symbol _SDL_RenderClear referenced in function "void __cdecl render(void)" (?render@@YAXXZ)
+Source.obj : error LNK2019: unresolved external symbol _SDL_RenderPresent referenced in function "void __cdecl render(void)" (?render@@YAXXZ)
+Source.obj : error LNK2019: unresolved external symbol _SDL_DestroyRenderer referenced in function _main
+Source.obj : error LNK2019: unresolved external symbol _SDL_Init referenced in function _main
+Source.obj : error LNK2019: unresolved external symbol _SDL_Quit referenced in function _main
+C:\Users\J Suarez\Downloads\SDL2-devel-2.0.16-VC\SDL2-2.0.16\lib\x64\SDL2.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\Users\J Suarez\Downloads\SDL2-devel-2.0.16-VC\SDL2-2.0.16\lib\x64\SDL2main.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\Users\J Suarez\source\repos\Project1\Debug\Project1.exe : fatal error LNK1120: 12 unresolved externals

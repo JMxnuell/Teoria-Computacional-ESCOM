@@ -1,0 +1,25 @@
+﻿  Game.cpp
+  board.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\consoleapi2.h(39,1): warning C4005: 'BACKGROUND_BLUE': macro redefinition
+C:\Users\J Suarez\source\repos\Project1\window.h(16): message : see previous definition of 'BACKGROUND_BLUE'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\consoleapi2.h(40,1): warning C4005: 'BACKGROUND_GREEN': macro redefinition
+C:\Users\J Suarez\source\repos\Project1\window.h(15): message : see previous definition of 'BACKGROUND_GREEN'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\consoleapi2.h(41,1): warning C4005: 'BACKGROUND_RED': macro redefinition
+C:\Users\J Suarez\source\repos\Project1\window.h(14): message : see previous definition of 'BACKGROUND_RED'
+  main2.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\consoleapi2.h(39,1): warning C4005: 'BACKGROUND_BLUE': macro redefinition
+C:\Users\J Suarez\source\repos\Project1\window.h(16): message : see previous definition of 'BACKGROUND_BLUE'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\consoleapi2.h(40,1): warning C4005: 'BACKGROUND_GREEN': macro redefinition
+C:\Users\J Suarez\source\repos\Project1\window.h(15): message : see previous definition of 'BACKGROUND_GREEN'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\consoleapi2.h(41,1): warning C4005: 'BACKGROUND_RED': macro redefinition
+C:\Users\J Suarez\source\repos\Project1\window.h(14): message : see previous definition of 'BACKGROUND_RED'
+C:\Users\J Suarez\source\repos\Project1\main2.cpp(33,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\J Suarez\source\repos\Project1\main2.cpp(83,30): warning C4244: '=': conversion from 'Uint32' to 'float', possible loss of data
+C:\Users\J Suarez\source\repos\Project1\main2.cpp(86,39): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  Piece.cpp
+  window2.cpp
+C:\Users\J Suarez\source\repos\Project1\window2.cpp(82,2): warning C4065: switch statement contains 'default' but no 'case' labels
+C:\Users\J Suarez\source\repos\Project1\window2.cpp(167,20): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\J Suarez\source\repos\Project1\window2.cpp(170,20): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  Generating Code...
+  Project1.vcxproj -> C:\Users\J Suarez\source\repos\Project1\x64\Debug\Project1.exe

@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?><DEFECTS><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\J Suarez\Downloads\SDL2-devel-2.0.16-VC\SDL2-2.0.16\include\</FILEPATH>
+      <FILENAME>SDL_rect.h</FILENAME>
+      <LINE>102</LINE>
+      <COLUMN>28</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'SDL_bool' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>SDL_PointInRect</FUNCTION>
+    <DECORATED>SDL_PointInRect</DECORATED>
+    <FUNCLINE>99</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\J Suarez\source\repos\Project1\</FILEPATH>
+      <FILENAME>main2.cpp</FILENAME>
+      <LINE>209</LINE>
+      <COLUMN>26</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>NFA</FUNCTION>
+    <DECORATED>?NFA@@YAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@HH0D@Z</DECORATED>
+    <FUNCLINE>171</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\J Suarez\source\repos\Project1\</FILEPATH>
+      <FILENAME>window2.cpp</FILENAME>
+      <LINE>10</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Window::game' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Window::{ctor}</FUNCTION>
+    <DECORATED>??0Window@@QEAA@XZ</DECORATED>
+    <FUNCLINE>10</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Window::game</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT></DEFECTS>

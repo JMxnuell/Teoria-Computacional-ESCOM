@@ -1,0 +1,9 @@
+Movimientos no validos para: BBB
+1 6 1 6 
+1 6 11 6 
+1 6 11 14 
+1 6 11 8 
+1 6 9 14 
+1 6 9 6 
+1 6 3 8 
+1 6 3 6 

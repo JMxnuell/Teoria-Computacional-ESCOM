@@ -1,0 +1,572 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'SDL_bool' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/J Suarez/Downloads/SDL2-devel-2.0.16-VC/SDL2-2.0.16/include/SDL_rect.h"
+                },
+                "region": {
+                  "startLine": 102,
+                  "startColumn": 29
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "SDL_PointInRect",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'Window::game' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/J Suarez/source/repos/Project1/window2.cpp"
+                },
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 9,
+                  "endLine": 10,
+                  "endColumn": 9
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Window@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Window::game"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'Window::isRunning' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/J Suarez/source/repos/Project1/window2.cpp"
+                },
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 9,
+                  "endLine": 10,
+                  "endColumn": 9
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Window@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Window::isRunning"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'Window::window' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/J Suarez/source/repos/Project1/window2.cpp"
+                },
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 9,
+                  "endLine": 10,
+                  "endColumn": 9
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Window@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Window::window"
+          }
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.29.30136.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "commandLine": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX86\\x64\\c1xx.dll\" -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x0021C1B0 -il C:\\Users\\JSUARE~1\\AppData\\Local\\Temp\\_CL_9cc52665ast -typedil -f window2.cpp -Ze -D_MSC_EXTENSIONS -Zp16 -pc \\:/ -D_MSC_VER=1929 -D_MSC_FULL_VER=192930136 -D_MSC_BUILD=0 -D_M_AMD64=100 -ZILP448 -D_M_X64=100 -D_WIN64 -D_WIN32 -GR -D_CPPRTTI -I C:\\Users\\J Suarez\\Downloads\\SDL2-devel-2.0.16-VC\\SDL2-2.0.16\\include -nologo -W 3 -diagnostics:column -D_GUARDOVERFLOW_CRT_ALLOCATORS=1 -Ot -DCODE_ANALYSIS -D_DEBUG -D_CONSOLE -D_UNICODE -DUNICODE -EHs -D_CPPUNWIND -EHc -D__MSVC_RUNTIME_CHECKS -RTCs -RTCu -MDd -D_DEBUG -D_MT -D_DLL -GS -D_M_FP_PRECISE -permissive- -Zc:wchar_t -Zc:forScope -Fox64\\Debug\\window2.obj -Fdx64\\Debug\\vc142.pdb -external:W 3 -Gd -analyze:projectdirectory C:\\Users\\J Suarez\\source\\repos\\Project1 -analyze:rulesetdirectory ;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\\\Rule Sets; -analyze:ruleset C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\Rule Sets\\NativeRecommendedRules.ruleset -analyze:quiet -analyze:plugin C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX86\\x86\\EspXEngine.dll -FC -errorreport:prompt -I C:\\SDL2image\\SDL2_image-2.0.5\\include -I C:\\SDL2\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um -external:I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include -external:I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include -external:I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -external:I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um",
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/J Suarez/Downloads/SDL2-devel-2.0.16-VC/SDL2-2.0.16/include/SDL_rect.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "afd186f969d6d95b341257f88ca5f104"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/J Suarez/source/repos/Project1/window2.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "fe099adf0928567342d5bb3319eb2e28"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/j suarez/source/repos/project1/window.h"
+          },
+          "hashes": {
+            "md5": "d5fae6223e32706c19c0ee81a201fff0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/j suarez/downloads/sdl2-devel-2.0.16-vc/sdl2-2.0.16/include/sdl.h"
+          },
+          "hashes": {
+            "md5": "1cde4efcb34c523759e33ebf4473adc3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/j suarez/downloads/sdl2-devel-2.0.16-vc/sdl2-2.0.16/include/sdl_main.h"
+          },
+          "hashes": {
+            "md5": "b88bc709072469bf02d27e556ac1fabb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/j suarez/downloads/sdl2-devel-2.0.16-vc/sdl2-2.0.16/include/sdl_stdinc.h"
+          },
+          "hashes": {
+            "md5": "f4c5d7bcaee48a9cbe1eb8bdf5160141"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/j suarez/downloads/sdl2-devel-2.0.16-vc/sdl2-2.0.16/include/sdl_config.h"
+          },
+          "hashes": {
+            "md5": "d92b2487a04fac36c1d442198cd245fa"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/j suarez/downloads/sdl2-devel-2.0.16-vc/sdl2-2.0.16/include/sdl_platform.h"
+          },
+          "hashes": {
+            "md5": "3b7f94169ae8344fab5edb92b89b3854"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/j suarez/downloads/sdl2-devel-2.0.16-vc/sdl2-2.0.16/include/begin_code.h"
+          },
+          "hashes": {
+            "md5": "8e52ebea784a11dd64caa2d1ed5064bb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/j suarez/downloads/sdl2-devel-2.0.16-vc/sdl2-2.0.16/include/close_code.h"
+          },
+          "hashes": {
+            "md5": "7b6b8e4df66cbbd5d2b3b84d99fd57bb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/j suarez/downloads/sdl2-devel-2.0.16-vc/sdl2-2.0.16/include/sdl_assert.h"
+          },
+          "hashes": {
+            "md5": "6436e364b304693dd353def40aedf160"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/j suarez/downloads/sdl2-devel-2.0.16-vc/sdl2-2.0.16/include/sdl_atomic.h"
+          },
+          "hashes": {
+            "md5": "9d3e1e298e9effd381cfe8b761a56d7e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/j suarez/downloads/sdl2-devel-2.0.16-vc/sdl2-2.0.16/include/sdl_audio.h"
+          },
+          "hashes": {
+            "md5": "a148ae990e96319ba873468d010fa261"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/j suarez/downloads/sdl2-devel-2.0.16-vc/sdl2-2.0.16/include/sdl_error.h"
+          },
+          "hashes": {
+            "md5": "a22e78171081a58bda2e5613f47b1425"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/j suarez/downloads/sdl2-devel-2.0.16-vc/sdl2-2.0.16/include/sdl_endian.h"
+          },
+          "hashes": {
+            "md5": "f640f3b3bcf363959c1c4dc13a68103d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/j suarez/downloads/sdl2-devel-2.0.16-vc/sdl2-2.0.16/include/sdl_mutex.h"
+          },
+          "hashes": {
+            "md5": "6945688f687051543d67d42137a79ab5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/j suarez/downloads/sdl2-devel-2.0.16-vc/sdl2-2.0.16/include/sdl_thread.h"
+          },
+          "hashes": {
+            "md5": "1b19f9d0eecb167716d46cd0adf31b16"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/j suarez/downloads/sdl2-devel-2.0.16-vc/sdl2-2.0.16/include/sdl_rwops.h"
+          },
+          "hashes": {
+            "md5": "d22f05585e4657bda3ad754f9c9d9969"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/j suarez/downloads/sdl2-devel-2.0.16-vc/sdl2-2.0.16/include/sdl_clipboard.h"
+          },
+          "hashes": {
+            "md5": "8c920df7ea01ddb9d68d635295c1cc13"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/j suarez/downloads/sdl2-devel-2.0.16-vc/sdl2-2.0.16/include/sdl_cpuinfo.h"
+          },
+          "hashes": {
+            "md5": "992d3b1c34853e331d4bfa622fa2dd4e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/j suarez/downloads/sdl2-devel-2.0.16-vc/sdl2-2.0.16/include/sdl_events.h"
+          },
+          "hashes": {
+            "md5": "ce3ca58d8a1eb003fbb0887e81128559"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/j suarez/downloads/sdl2-devel-2.0.16-vc/sdl2-2.0.16/include/sdl_video.h"
+          },
+          "hashes": {
+            "md5": "b9bd7a91a755766d944303450ed70432"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/j suarez/downloads/sdl2-devel-2.0.16-vc/sdl2-2.0.16/include/sdl_pixels.h"
+          },
+          "hashes": {
+            "md5": "c8f026513c4454a8edd827a9b88aec5f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/j suarez/downloads/sdl2-devel-2.0.16-vc/sdl2-2.0.16/include/sdl_surface.h"
+          },
+          "hashes": {
+            "md5": "cd3b84a59db66d0bc0c5ca03f7e384aa"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/j suarez/downloads/sdl2-devel-2.0.16-vc/sdl2-2.0.16/include/sdl_blendmode.h"
+          },
+          "hashes": {
+            "md5": "aa8afe49f152ab8f1afc6d99f794b28e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/j suarez/downloads/sdl2-devel-2.0.16-vc/sdl2-2.0.16/include/sdl_keyboard.h"
+          },
+          "hashes": {
+            "md5": "cc72701da154376b8e102a0ff3617621"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/j suarez/downloads/sdl2-devel-2.0.16-vc/sdl2-2.0.16/include/sdl_keycode.h"
+          },
+          "hashes": {
+            "md5": "b20bf46b01506667297eb8b37c47bc2a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/j suarez/downloads/sdl2-devel-2.0.16-vc/sdl2-2.0.16/include/sdl_scancode.h"
+          },
+          "hashes": {
+            "md5": "e99fada689e4cf90b81cc537da5083f4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/j suarez/downloads/sdl2-devel-2.0.16-vc/sdl2-2.0.16/include/sdl_mouse.h"
+          },
+          "hashes": {
+            "md5": "3dd95fe6c2eaf8ad3e0efef4a3c946d3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/j suarez/downloads/sdl2-devel-2.0.16-vc/sdl2-2.0.16/include/sdl_joystick.h"
+          },
+          "hashes": {
+            "md5": "935cafa7a456a069006b07d5321ac379"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/j suarez/downloads/sdl2-devel-2.0.16-vc/sdl2-2.0.16/include/sdl_gamecontroller.h"
+          },
+          "hashes": {
+            "md5": "01322563a34c5a402f3ddbcb7c58c90a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/j suarez/downloads/sdl2-devel-2.0.16-vc/sdl2-2.0.16/include/sdl_sensor.h"
+          },
+          "hashes": {
+            "md5": "c4542448fc4ff1e461feaa75ad9fa8c0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/j suarez/downloads/sdl2-devel-2.0.16-vc/sdl2-2.0.16/include/sdl_quit.h"
+          },
+          "hashes": {
+            "md5": "2a67a02e57463b876d975b3e6bd71e0c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/j suarez/downloads/sdl2-devel-2.0.16-vc/sdl2-2.0.16/include/sdl_gesture.h"
+          },
+          "hashes": {
+            "md5": "de2e73748f374cba1be79b48672de001"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/j suarez/downloads/sdl2-devel-2.0.16-vc/sdl2-2.0.16/include/sdl_touch.h"
+          },
+          "hashes": {
+            "md5": "d1940941cf6b4786393bbdf30d2437c3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/j suarez/downloads/sdl2-devel-2.0.16-vc/sdl2-2.0.16/include/sdl_filesystem.h"
+          },
+          "hashes": {
+            "md5": "eb7afec496bb4b44fd1668eada2ecfa2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/j suarez/downloads/sdl2-devel-2.0.16-vc/sdl2-2.0.16/include/sdl_haptic.h"
+          },
+          "hashes": {
+            "md5": "c19c10bdf7df4e9e71dfc0753d8727e4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/j suarez/downloads/sdl2-devel-2.0.16-vc/sdl2-2.0.16/include/sdl_hints.h"
+          },
+          "hashes": {
+            "md5": "d5df373f7c59aafcd92f82e6285055bd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/j suarez/downloads/sdl2-devel-2.0.16-vc/sdl2-2.0.16/include/sdl_loadso.h"
+          },
+          "hashes": {
+            "md5": "22fdd8e014747dd84e3c4f1e234d0e8b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/j suarez/downloads/sdl2-devel-2.0.16-vc/sdl2-2.0.16/include/sdl_log.h"
+          },
+          "hashes": {
+            "md5": "6be8a305116a54b16ef85c11d44d04f3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/j suarez/downloads/sdl2-devel-2.0.16-vc/sdl2-2.0.16/include/sdl_messagebox.h"
+          },
+          "hashes": {
+            "md5": "eeced17a9a9441fe6060c74e7cdf5966"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/j suarez/downloads/sdl2-devel-2.0.16-vc/sdl2-2.0.16/include/sdl_metal.h"
+          },
+          "hashes": {
+            "md5": "ad77bf11c0082c2ad6f586b7a4cc6b12"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/j suarez/downloads/sdl2-devel-2.0.16-vc/sdl2-2.0.16/include/sdl_power.h"
+          },
+          "hashes": {
+            "md5": "e1d4b030e6555a5bf01153a17b09cf7d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/j suarez/downloads/sdl2-devel-2.0.16-vc/sdl2-2.0.16/include/sdl_render.h"
+          },
+          "hashes": {
+            "md5": "b808ad1c19fb174f8f9f5f9c3ba17066"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/j suarez/downloads/sdl2-devel-2.0.16-vc/sdl2-2.0.16/include/sdl_shape.h"
+          },
+          "hashes": {
+            "md5": "4d21f6ac2a0ac222a0664dcd7c63310b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/j suarez/downloads/sdl2-devel-2.0.16-vc/sdl2-2.0.16/include/sdl_system.h"
+          },
+          "hashes": {
+            "md5": "02b12614fb0a6ddd4fd6c9551c9e6d45"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/j suarez/downloads/sdl2-devel-2.0.16-vc/sdl2-2.0.16/include/sdl_timer.h"
+          },
+          "hashes": {
+            "md5": "e7535fcf28b07e2b032d400688d3be8f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/j suarez/downloads/sdl2-devel-2.0.16-vc/sdl2-2.0.16/include/sdl_version.h"
+          },
+          "hashes": {
+            "md5": "9342aba7f4f3ebccbadad8d7c017f6b8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/j suarez/downloads/sdl2-devel-2.0.16-vc/sdl2-2.0.16/include/sdl_locale.h"
+          },
+          "hashes": {
+            "md5": "a525a0ad22f62f52d931ab556af68744"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/j suarez/downloads/sdl2-devel-2.0.16-vc/sdl2-2.0.16/include/sdl_misc.h"
+          },
+          "hashes": {
+            "md5": "f7636158cc2942c3a89f4134503a3593"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/j suarez/source/repos/project1/game.h"
+          },
+          "hashes": {
+            "md5": "52f04c41f741a4c347100cee64720804"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/j suarez/source/repos/project1/board.h"
+          },
+          "hashes": {
+            "md5": "aa0c05cbd3bec24f1ed8c36b30fb4972"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sdl2image/sdl2_image-2.0.5/include/sdl_image.h"
+          },
+          "hashes": {
+            "md5": "3ad4ced493bf6ee900936905e0ebd218"
+          }
+        }
+      ]
+    }
+  ]
+}
