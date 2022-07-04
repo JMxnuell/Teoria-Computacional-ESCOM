@@ -1,9 +1,10 @@
 # Teoria-Computacional
-Practicas realizadas durante el curso Teoria Computacional de la Escuela Superior de Computo
+Practicas realizadas durante el curso Teoria Computacional de la Escuela Superior de Computo (ESCOM)
 
 ### Lenguaje
 * C++ 17
 ### Prácticas
+Las prácticas no enumeradas fueron hechas fuera del curso.
 | Práctica      | Descripción                 | 
 | ------------- |:---------------------------:| 
 | AFD | Construcción de un AFD dado un txt con <br> con su descripción. Dada una cadena <br> se validará que pertenezca al universo
